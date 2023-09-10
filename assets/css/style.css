@@ -5,12 +5,13 @@ body{
 }
 
 header{
-    display: flex;
-    width: 100%;
-    height: 8rem;
-    background-color: rgb(226, 226, 226);
-    align-items: center;
-    position: fixed;
+  position: sticky;
+  display: flex;
+  width: 100%;
+  height: 7rem;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+  top: 0;
 }
 
 .title{
@@ -20,15 +21,21 @@ header{
 .nav-list{
     list-style: none;
     display: inline-block;
-    padding: 1rem;
+    padding: 0.5rem;
+    
+}
+.nav-group img {
+  border-radius: 50%;
 }
 
 .sideber {
-    background-color:#ff838b;
+    background-color:#e2e2e2;
     width:20%;
     height:100rem;
     text-align:center;
   } 
+
+
 
 .main-content {
     background-color:#b3d874;
@@ -39,8 +46,14 @@ header{
   }  
 
   article {
+    padding: 0;
     display:flex;/*サイドバーとメインコンテンツを横並びにする指定をした*/
   }
+
+
+
+
+
 
 
 
